@@ -1,0 +1,2020 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2455188269978,
+          42.4031974972732
+        ]
+      },
+      "properties": {
+        "name": "Mancomunidad de Odra-Pisuerga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.16180269799992,
+          42.9578859220001
+        ]
+      },
+      "properties": {
+        "name": "Las Murias"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.12512123899995,
+          42.787475607
+        ]
+      },
+      "properties": {
+        "name": "Sorriba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.38690189199991,
+          42.6085204430001
+        ]
+      },
+      "properties": {
+        "name": "Castrillo de Porma"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.91041008243464,
+          42.6172519481904
+        ]
+      },
+      "properties": {
+        "name": "Villar de Corrales"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.18780722699995,
+          43.125487772
+        ]
+      },
+      "properties": {
+        "name": "Berrandúlez"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.98127413662973,
+          42.670386551673
+        ]
+      },
+      "properties": {
+        "name": "Las Herrerías"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.83569392299995,
+          42.8496706480001
+        ]
+      },
+      "properties": {
+        "name": "Colonia Sierra de Brezo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.38000495699993,
+          41.093506071
+        ]
+      },
+      "properties": {
+        "name": "Villaseca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.33117656199994,
+          42.7863154250001
+        ]
+      },
+      "properties": {
+        "name": "Quintanilla de la Berzosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.63189699799995,
+          42.5490722480001
+        ]
+      },
+      "properties": {
+        "name": "Quintana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.48022547199992,
+          42.462890099
+        ]
+      },
+      "properties": {
+        "name": "Villavega"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.17010549299994,
+          42.044128603
+        ]
+      },
+      "properties": {
+        "name": "Acrijos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.15521299399995,
+          42.0327150750001
+        ]
+      },
+      "properties": {
+        "name": "Fuentebella"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.36187708699993,
+          42.106872691
+        ]
+      },
+      "properties": {
+        "name": "La Mata"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.14837683599995,
+          42.0831300680001
+        ]
+      },
+      "properties": {
+        "name": "Villarijo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.17449988899995,
+          42.0747071850001
+        ]
+      },
+      "properties": {
+        "name": "Peñazcuma"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.37719683999995,
+          42.0961304990001
+        ]
+      },
+      "properties": {
+        "name": "Vellosillo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.27050789799995,
+          42.0537111090001
+        ]
+      },
+      "properties": {
+        "name": "Dehesa de Mazuelas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.32269274699991,
+          42.0723267070001
+        ]
+      },
+      "properties": {
+        "name": "Aldealcardo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.23181176299994,
+          42.0662842510001
+        ]
+      },
+      "properties": {
+        "name": "Buimanco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.19220007599995,
+          42.066894661
+        ]
+      },
+      "properties": {
+        "name": "Vea"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.00598057899992,
+          41.8427127620001
+        ]
+      },
+      "properties": {
+        "name": "Conejares"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.31738266299993,
+          42.130676367
+        ]
+      },
+      "properties": {
+        "name": "Lería"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.34521466199993,
+          42.0488891950001
+        ]
+      },
+      "properties": {
+        "name": "Villaseca Bajera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.65027413079522,
+          41.964891764193
+        ]
+      },
+      "properties": {
+        "name": "Paradilla del Alcor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.22351089499995,
+          41.6536864280001
+        ]
+      },
+      "properties": {
+        "name": "Albocabe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.95022865348801,
+          41.7302459661418
+        ]
+      },
+      "properties": {
+        "name": "Cubillos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.13751218099992,
+          41.7677001360001
+        ]
+      },
+      "properties": {
+        "name": "Masegoso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.04449461599995,
+          41.549499659
+        ]
+      },
+      "properties": {
+        "name": "Peñalcázar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.81121825299994,
+          41.2388911250001
+        ]
+      },
+      "properties": {
+        "name": "Aldealafuente"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.99737468799992,
+          41.4215087160001
+        ]
+      },
+      "properties": {
+        "name": "Los Valles de Fuentidueña"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.31712101929129,
+          41.1646200478662
+        ]
+      },
+      "properties": {
+        "name": "Avenales"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.37082175245664,
+          41.1631234058898
+        ]
+      },
+      "properties": {
+        "name": "Lomeda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.16513313040947,
+          41.3143898160395
+        ]
+      },
+      "properties": {
+        "name": "Sotillo de Caracena"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.68376130611948,
+          41.1618661347329
+        ]
+      },
+      "properties": {
+        "name": "Pradenilla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.79217537099993,
+          41.231078568
+        ]
+      },
+      "properties": {
+        "name": "Ventosilla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.27947963399993,
+          42.7966915800001
+        ]
+      },
+      "properties": {
+        "name": "Pobladura de Confederación Hidrografíca del Duero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.84777804799995,
+          41.601501387
+        ]
+      },
+      "properties": {
+        "name": "Escobosa de Calatañazor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.21698019999991,
+          42.088684174
+        ]
+      },
+      "properties": {
+        "name": "Valdemoro de San Pedro Manrique"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.16980008499991,
+          42.0955201630001
+        ]
+      },
+      "properties": {
+        "name": "Armejón"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.58879557602388,
+          42.6136080049224
+        ]
+      },
+      "properties": {
+        "name": "Barrio de Eras de Renueva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.73870776999991,
+          42.1146848970001
+        ]
+      },
+      "properties": {
+        "name": "Ribadelago Nuevo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.14147840899994,
+          41.0490731130001
+        ]
+      },
+      "properties": {
+        "name": "Muélledes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.59680206299993,
+          40.9625244650001
+        ]
+      },
+      "properties": {
+        "name": "Naharros del Río"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.43658437599993,
+          40.8897094760001
+        ]
+      },
+      "properties": {
+        "name": "Pedro Álvaro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.07940683799995,
+          40.8463137110001
+        ]
+      },
+      "properties": {
+        "name": "Sebastián Rubio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.31542992799996,
+          40.734924591
+        ]
+      },
+      "properties": {
+        "name": "Sepúlveda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.06671199999994,
+          40.6889046850001
+        ]
+      },
+      "properties": {
+        "name": "Servández"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.97711189999995,
+          40.647888832
+        ]
+      },
+      "properties": {
+        "name": "Los Arévalos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.09002598899991,
+          41.0719004050001
+        ]
+      },
+      "properties": {
+        "name": "La Huérfana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.59728940599996,
+          40.7291258010001
+        ]
+      },
+      "properties": {
+        "name": "Pedro Martín de Alba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.46801679299995,
+          40.5880732360001
+        ]
+      },
+      "properties": {
+        "name": "Íñigo Blasco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.95159971299995,
+          41.3983177530001
+        ]
+      },
+      "properties": {
+        "name": "Brías"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.43408153699994,
+          40.607482518
+        ]
+      },
+      "properties": {
+        "name": "Revalvos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.95050047199993,
+          40.6923225940001
+        ]
+      },
+      "properties": {
+        "name": "Alcazarén"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.09509347799991,
+          40.4130864540001
+        ]
+      },
+      "properties": {
+        "name": "La Rebollosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.27941956799992,
+          40.4650893890001
+        ]
+      },
+      "properties": {
+        "name": "Marías"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.37322654602753,
+          42.5523722399337
+        ]
+      },
+      "properties": {
+        "name": "Presa de Bembibre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.15262900877044,
+          42.7599467262073
+        ]
+      },
+      "properties": {
+        "name": "Iglesia de San Justo y Pastor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.83819589799992,
+          40.5341195490001
+        ]
+      },
+      "properties": {
+        "name": "Castillo de Aunqueospese"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.47212980344505,
+          41.8211669964988
+        ]
+      },
+      "properties": {
+        "name": "Aeródromo de Garray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.18961885500622,
+          43.0217919517188
+        ]
+      },
+      "properties": {
+        "name": "Cresta de Murias"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.18829338999996,
+          43.0250861950001
+        ]
+      },
+      "properties": {
+        "name": "Pico Valcerrao"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.19122311399991,
+          43.0314948750001
+        ]
+      },
+      "properties": {
+        "name": "Peña La Cruz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.64349240099995,
+          43.003906655
+        ]
+      },
+      "properties": {
+        "name": "Cueto Mirallo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.18150921823562,
+          43.0352133588149
+        ]
+      },
+      "properties": {
+        "name": "Pico Salamanquino"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.85699365499994,
+          43.1732788230001
+        ]
+      },
+      "properties": {
+        "name": "Torre de Llambrión"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.86885515833333,
+          43.1673564027778
+        ]
+      },
+      "properties": {
+        "name": "Aguja Señora del Tío Toribio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.85465538999916,
+          43.17260215
+        ]
+      },
+      "properties": {
+        "name": "Tiro Tirso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.84751426388889,
+          43.1649927527778
+        ]
+      },
+      "properties": {
+        "name": "Torre de la Collada Ancha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.87649880277778,
+          43.1574523472222
+        ]
+      },
+      "properties": {
+        "name": "Aguja María Luisa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.27660949299991,
+          42.83691459
+        ]
+      },
+      "properties": {
+        "name": "La Peñona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.27990533799994,
+          42.8406987750001
+        ]
+      },
+      "properties": {
+        "name": "Pico el Tambarón"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.03387572799994,
+          41.816284861
+        ]
+      },
+      "properties": {
+        "name": "Campanario"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.04388471599992,
+          41.7467043440001
+        ]
+      },
+      "properties": {
+        "name": "Alto del Campanario"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.67388997034923,
+          41.8082885511186
+        ]
+      },
+      "properties": {
+        "name": "Atalaya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.67351420055163,
+          41.3099833433569
+        ]
+      },
+      "properties": {
+        "name": "El Telégrafo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.28487703562632,
+          42.070205247997
+        ]
+      },
+      "properties": {
+        "name": "Cerro Ayedo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.63842021774132,
+          41.7964565591847
+        ]
+      },
+      "properties": {
+        "name": "El Peñón"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.31911281177973,
+          41.9901111004882
+        ]
+      },
+      "properties": {
+        "name": "El Cayo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.77282649899996,
+          41.0203240170001
+        ]
+      },
+      "properties": {
+        "name": "Peña del Buitre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.98206489991938,
+          40.5837684587531
+        ]
+      },
+      "properties": {
+        "name": "Pico Cervero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.99825363994818,
+          40.5492125137767
+        ]
+      },
+      "properties": {
+        "name": "El Castillo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.19262664399992,
+          40.6898805550001
+        ]
+      },
+      "properties": {
+        "name": "Cueva Valiente"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.33523672999778,
+          42.83041758
+        ]
+      },
+      "properties": {
+        "name": "Valdeiglesias"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.20784779999864,
+          42.16833927
+        ]
+      },
+      "properties": {
+        "name": "Nuestra Señora"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.32202053899994,
+          42.80151384
+        ]
+      },
+      "properties": {
+        "name": "Pico Catoute"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.10308738199996,
+          42.892272517
+        ]
+      },
+      "properties": {
+        "name": "Alto de la Cañada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.20039272877972,
+          43.0382283731034
+        ]
+      },
+      "properties": {
+        "name": "El Gistral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.18748913577192,
+          43.0284984793467
+        ]
+      },
+      "properties": {
+        "name": "Peñas del Convento"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1793962026816,
+          43.0207730272223
+        ]
+      },
+      "properties": {
+        "name": "Crestón de los Cubos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.19543173573983,
+          43.0250491693712
+        ]
+      },
+      "properties": {
+        "name": "Pico de la Polinosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1803650161372,
+          43.0142084808766
+        ]
+      },
+      "properties": {
+        "name": "Loma Mediana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.18990281757079,
+          43.0197875100865
+        ]
+      },
+      "properties": {
+        "name": "La Graya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.18982765100958,
+          43.032052187324
+        ]
+      },
+      "properties": {
+        "name": "Pico la Uve"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.15740947099994,
+          43.0256963990001
+        ]
+      },
+      "properties": {
+        "name": "Pico de Cuestarrasa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.16386178003143,
+          43.039564667525
+        ]
+      },
+      "properties": {
+        "name": "Loma de Mampodre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.50860512699995,
+          42.3936777040001
+        ]
+      },
+      "properties": {
+        "name": "Puerto de los Portillos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1841321961091,
+          43.0243700668413
+        ]
+      },
+      "properties": {
+        "name": "Collado de Murias"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.18935159612192,
+          43.0268865742008
+        ]
+      },
+      "properties": {
+        "name": "Collado Valverde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.16735284920765,
+          43.0238465043918
+        ]
+      },
+      "properties": {
+        "name": "Collado Valjarto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.19922347116089,
+          43.0370925228451
+        ]
+      },
+      "properties": {
+        "name": "Collado Gistral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.19621680871247,
+          43.0191527702363
+        ]
+      },
+      "properties": {
+        "name": "Valle Bustil de Pepe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.33599935199993,
+          40.489319982
+        ]
+      },
+      "properties": {
+        "name": "Valle del Corneja"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.83190967999991,
+          41.9179090600001
+        ]
+      },
+      "properties": {
+        "name": "Comarca de Pinares"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.73691341270585,
+          42.5497991852861
+        ]
+      },
+      "properties": {
+        "name": "Vega-Valdavia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.42063736654307,
+          42.6214032586237
+        ]
+      },
+      "properties": {
+        "name": "Boedo-Ojeda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.58135471185954,
+          42.9280673349359
+        ]
+      },
+      "properties": {
+        "name": "Montaña Palentina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.33599935199993,
+          40.489319982
+        ]
+      },
+      "properties": {
+        "name": "Valle del Corneja"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.37851090001888,
+          40.7543899781878
+        ]
+      },
+      "properties": {
+        "name": "Campo Azálvaro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.19381147875373,
+          43.0443085127213
+        ]
+      },
+      "properties": {
+        "name": "La Fuentona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.15948476099993,
+          43.0371099700001
+        ]
+      },
+      "properties": {
+        "name": "Los Cosalines"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.68029775199994,
+          42.2734984100001
+        ]
+      },
+      "properties": {
+        "name": "Valle de la Cueza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.15869090699994,
+          41.9317007110001
+        ]
+      },
+      "properties": {
+        "name": "Valles de Cerrato"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.19488051429095,
+          43.039631482246
+        ]
+      },
+      "properties": {
+        "name": "Canalizo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.32989387899994,
+          42.8311158910001
+        ]
+      },
+      "properties": {
+        "name": "Valdeiglesia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.17488620900897,
+          43.0375936332532
+        ]
+      },
+      "properties": {
+        "name": "La Pared"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.30158735822287,
+          40.2663894622442
+        ]
+      },
+      "properties": {
+        "name": "Las Cinco Lagunas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.30548153199993,
+          40.2614753830001
+        ]
+      },
+      "properties": {
+        "name": "Circo de las Cinco Lagunas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.50604667930047,
+          42.741549550763
+        ]
+      },
+      "properties": {
+        "name": "El Mazo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.16007004461037,
+          43.0349878591312
+        ]
+      },
+      "properties": {
+        "name": "Majada de los Cosalines"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.21160089824021,
+          43.0276883508537
+        ]
+      },
+      "properties": {
+        "name": "La Cervencia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.19062107582236,
+          43.0396648896066
+        ]
+      },
+      "properties": {
+        "name": "Prao Pacho"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.17383387715202,
+          43.0414688870756
+        ]
+      },
+      "properties": {
+        "name": "Monte la Biesca"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.16320786699993,
+          43.0291143920001
+        ]
+      },
+      "properties": {
+        "name": "Monte Cuestarrasa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.18803200538066,
+          43.039815222729
+        ]
+      },
+      "properties": {
+        "name": "Trampolín"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.19646736391651,
+          43.0502717265774
+        ]
+      },
+      "properties": {
+        "name": "La Perala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.17613898502914,
+          43.0209901750658
+        ]
+      },
+      "properties": {
+        "name": "Cubos Cimeros"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.1884997084282,
+          43.0300268660913
+        ]
+      },
+      "properties": {
+        "name": "Valle del Silencio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.15976937836553,
+          43.0199378432089
+        ]
+      },
+      "properties": {
+        "name": "Majada de los Hoyos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.18231101299995,
+          42.7960824850001
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural de Montes Obarenes-San Zadornil "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.53430263699994,
+          41.2581176960001
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural del Arribes del Duero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.05811129599994,
+          41.7390743060001
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural del Cañón del Río Lobos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8426002042575,
+          41.3041275497569
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural de las Hoces del Río Duratón"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.00677486499995,
+          42.9420777390001
+        ]
+      },
+      "properties": {
+        "name": "Monumento Natural de Monte Santiago"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.68749932499992,
+          42.9622806250001
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural de Fuentes Carrionas y Fuente Cobre-Montaña Palentina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.84297622599984,
+          41.9935554460554
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural de \"Laguna Negra y Circos Glaciares de Urbión\" "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.15249021427687,
+          40.4629639704316
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural de Las Batuecas-Sierra de Francia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.93695923648008,
+          42.880793610114
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural de «Babia y Luna»"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.92398528179803,
+          42.7049391090915
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural Hoces del Alto Ebro y Rudrón"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.05707890800138,
+          42.0375260874662
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural de \"Lagunas Glaciares de Neila\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.59306940557254,
+          41.5097032605018
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural de Hoces del Río Riaza"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.42456108282871,
+          41.9877029163788
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural de \"Sabinares del Arlanza-La Yecla\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.35430964399995,
+          40.264282758
+        ]
+      },
+      "properties": {
+        "name": "Parque Regional de la Sierra de Gredos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.76611227599994,
+          42.1995238200001
+        ]
+      },
+      "properties": {
+        "name": "Parque Natural Lago de Sanabria y Sierras Segundera\ny de Porto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.29272430999993,
+          42.98187397
+        ]
+      },
+      "properties": {
+        "name": "Parque Regional Montaña de Riaño y Mampodre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.05889877099992,
+          39.7385259360001
+        ]
+      },
+      "properties": {
+        "name": "Río Huso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.33622635781766,
+          41.7703248220129
+        ]
+      },
+      "properties": {
+        "name": "Arroyo del Juncarejo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.34217744436468,
+          41.7679194694152
+        ]
+      },
+      "properties": {
+        "name": "Arroyo del Royuelo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.19157318559769,
+          43.0462043804319
+        ]
+      },
+      "properties": {
+        "name": "Arroyo de la Fuentona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.27618464599993,
+          40.2539072600001
+        ]
+      },
+      "properties": {
+        "name": "Laguna Grande de Gredos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.46229464357891,
+          41.0711875243472
+        ]
+      },
+      "properties": {
+        "name": "Laguna Turra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.20545553660932,
+          42.8247698498954
+        ]
+      },
+      "properties": {
+        "name": "Fuentenaz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.17989760720573,
+          43.0302569398847
+        ]
+      },
+      "properties": {
+        "name": "Circo de Mampodre"
+      }
+    }
+  ]
+}
