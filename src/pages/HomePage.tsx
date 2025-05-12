@@ -4,9 +4,12 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
       <header className="bg-green-700 text-white p-4 shadow-md">
-        <div className="container mx-auto">
-          <h1 className="text-2xl font-bold">RutasVerdes Castilla y León</h1>
-          <p className="text-sm">Explora senderos y espacios naturales de la región</p>
+        <div className="container mx-auto flex items-center gap-4">
+          <img src='/logo.png' className="w-16 h-16" />
+          <div>
+            <h1 className="text-2xl font-bold">RutasVerdes Castilla y León</h1>
+            <p className="text-sm">Explora senderos y espacios naturales de la región</p>
+          </div>
         </div>
       </header>
 
