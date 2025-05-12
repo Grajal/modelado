@@ -1,5 +1,4 @@
 import { MapContainer } from "@/components/MapContainer"
-import { Toaster } from "@/components/ui/sonner"
 
 export default function Home() {
   return (
@@ -20,8 +19,6 @@ export default function Home() {
       <footer className="bg-gray-100 p-4 text-center text-sm text-gray-600">
         <p>© 2025 RutasVerdes Castilla y León - Datos proporcionados por la Junta de Castilla y León e IGN</p>
       </footer>
-
-      <Toaster />
     </main>
   )
 }
