@@ -1,7 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from "react"
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup, Tooltip, useMapEvents } from "react-leaflet"
+import { MapContainer, TileLayer, GeoJSON, Marker, Popup, useMapEvents } from "react-leaflet"
 import "leaflet/dist/leaflet.css"
 import "leaflet-defaulticon-compatibility"
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css"
@@ -55,14 +54,6 @@ const fixLeafletIcons = () => {
     })
   }
 }
-
-// Create an invisible icon for place labels
-const invisibleIcon = L.divIcon({
-  className: 'invisible-icon', // Required for L.divIcon
-  html: '', // No visible content
-  iconSize: [0, 0], // Zero size
-  iconAnchor: [0, 0], // Anchor point
-})
 
 // Create a function to generate DivIcons for place labels
 const createPlaceLabelIcon = (name: string): DivIcon => {
@@ -206,43 +197,6 @@ export default function Map({ onRouteSelect, selectedRoute }: MapProps) {
     return true // Include route if all filters pass
   })
 
-  const onEachRoute = (feature: any, layer: any) => {
-    if (feature.properties) {
-      // Ensure the created object matches the Route type
-      // Provide fallbacks for required properties if not in GeoJSON
-      const difficultyValue = feature.properties.senda_dificultad
-      const mappedDifficulty: Route['difficulty'] =
-        difficultyValue === 1 ? 'Fácil' :
-          difficultyValue === 2 ? 'Media' :
-            difficultyValue === 3 ? 'Difícil' :
-              'Media' // Default to 'Media' if undefined or not matching
-
-      const route: Route = {
-        id: feature.properties.id || feature.id || JSON.stringify(feature.geometry),
-        name: feature.properties.equip_b_nombre
-          || "Ruta sin nombr",
-        difficulty: mappedDifficulty,
-        length: feature.properties.senda_longitud || 0,
-        startPoint: feature.properties.startPoint || "", // Add fallback
-        // endPoint is optional
-        duration: feature.properties.senda_tiempo_recorrido || "", // Add fallback
-        geometry: feature.geometry,
-      }
-      layer.bindPopup(`
-        <div>
-          <h3 class="font-bold">${route.name}</h3>
-          <p>Dificultad: ${route.difficulty}</p>
-          <p>Distancia: ${route.length} m</p>
-        </div>
-      `)
-      layer.on({
-        click: () => {
-          onRouteSelect(route)
-        },
-      })
-    }
-  }
-
   return (
     <MapContainer
       center={[41.6, -4.7]}
@@ -273,8 +227,6 @@ export default function Map({ onRouteSelect, selectedRoute }: MapProps) {
             opacity: isSelected ? 1 : 0.7, // Make selected fully opaque
           }
         }}
-      // Remove onEachFeature to avoid duplicate popups/interactions
-      // onEachFeature={onEachRoute}
       />
 
       {/* Render Markers for Filtered Routes */}
