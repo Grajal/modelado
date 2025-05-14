@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from "react"
 import { MapContainer, TileLayer, GeoJSON, Marker, Popup, useMapEvents } from "react-leaflet"
 import "leaflet/dist/leaflet.css"
@@ -8,10 +9,9 @@ import L, { Icon, DivIcon } from "leaflet"
 import type { Route } from "@/types/route"
 import sendasData from "@/data/senda.json"
 import lugaresData from "@/data/lugares_cyl.json"
-import { useMap } from "@/context/MapContext" // Import useMap
+import { useMap } from "@/context/MapContext"
 
-// Define a simple type for the features in lugares_cyl.geojson
-// based on its structure. Use @types/geojson for more robust typing if installed.
+
 interface LugarFeature {
   type: "Feature"
   geometry: {
@@ -19,18 +19,18 @@ interface LugarFeature {
     coordinates: [number, number] // [lng, lat]
   }
   properties: {
-    id?: string | number // Optional ID
+    id?: string | number
     name?: string
-    // Add other properties if they exist
+
   }
 }
 
-// Define a type for Sendas features (assuming LineString geometry)
+
 interface SendasFeature {
   type: "Feature"
   geometry: {
-    type: "LineString" | "MultiLineString" // Allow both types
-    coordinates: any // Use any for flexibility with LineString/MultiLineString
+    type: "LineString" | "MultiLineString"
+    coordinates: any
   }
   properties: {
     gml_id?: string | number
@@ -42,10 +42,10 @@ interface SendasFeature {
   }
 }
 
-// Fix for Leaflet marker icons in Next.js
+
 const fixLeafletIcons = () => {
   if (typeof window !== "undefined") {
-    // @ts-expect-error Leaflet internal property
+
     delete L.Icon.Default.prototype._getIconUrl
     L.Icon.Default.mergeOptions({
       iconRetinaUrl: "/marker-icon-2x.png",
@@ -55,35 +55,35 @@ const fixLeafletIcons = () => {
   }
 }
 
-// Create a function to generate DivIcons for place labels
+
 const createPlaceLabelIcon = (name: string): DivIcon => {
   return L.divIcon({
-    html: `<span style="font-size: 10px; white-space: nowrap;">${name}</span>`, // Simple span with name
-    className: 'map-place-label-divicon', // Optional class for potential base styling
-    iconSize: undefined, // Let the size be determined by the content
-    iconAnchor: [0, 0] // Anchor at top-left for simplicity (adjust if needed)
+    html: `<span style="font-size: 10px; white-space: nowrap;">${name}</span>`,
+    className: 'map-place-label-divicon',
+    iconSize: undefined,
+    iconAnchor: [0, 0]
   })
 }
 
-// Define the default icon explicitly
+
 const defaultIcon = new Icon({
   iconUrl: "/marker-icon.png",
   iconRetinaUrl: "/marker-icon-2x.png",
   shadowUrl: "/marker-shadow.png",
-  iconSize: [25, 41], // Default Leaflet icon size
-  iconAnchor: [12, 41], // Default anchor point
-  popupAnchor: [1, -34], // Default popup anchor
-  shadowSize: [41, 41] // Default shadow size
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
 })
 
-// Helper function to format duration from total minutes
+
 const formatDuration = (minutesStr: string | undefined): string => {
   if (minutesStr === undefined || minutesStr === null || minutesStr === "") return "N/A"
 
   const totalMinutes = parseInt(minutesStr, 10)
 
   if (isNaN(totalMinutes) || totalMinutes < 0) {
-    return "N/A" // Handle invalid input
+    return "N/A"
   }
 
   if (totalMinutes === 0) {
@@ -98,14 +98,14 @@ const formatDuration = (minutesStr: string | undefined): string => {
     result += `${hours} h`
   }
   if (minutes > 0) {
-    if (result) result += " " // Add space if hours are present
+    if (result) result += " "
     result += `${minutes} min`
   }
 
   return result
 }
 
-// Helper function to format distance from meters
+
 const formatDistance = (meters: number | undefined): string => {
   if (meters === undefined || meters === null || isNaN(meters) || meters < 0) {
     return "N/A"
@@ -128,26 +128,26 @@ interface MapProps {
   selectedRoute: Route | null
 }
 
-// Define the zoom level threshold for showing labels
+
 const LABEL_VISIBILITY_ZOOM_THRESHOLD = 9
 
-// Helper component to update zoom state
+
 function MapEvents({ setZoomLevel }: { setZoomLevel: (zoom: number) => void }) {
   const map = useMapEvents({
     zoomend: () => {
       setZoomLevel(map.getZoom())
     },
-    // Optional: update on initial load as well
+
     load: () => {
       setZoomLevel(map.getZoom())
     }
   })
-  return null // This component doesn't render anything itself
+  return null
 }
 
 export default function Map({ onRouteSelect, selectedRoute }: MapProps) {
-  const { filters } = useMap() // Get filters from context
-  const [currentZoom, setCurrentZoom] = useState(8) // Initial zoom, will be updated by MapEvents
+  const { filters } = useMap()
+  const [currentZoom, setCurrentZoom] = useState(8)
 
   useEffect(() => {
     fixLeafletIcons()
@@ -166,7 +166,7 @@ export default function Map({ onRouteSelect, selectedRoute }: MapProps) {
     }
   }
 
-  // Filter routes based on context filters
+
   const filteredFeatures = (sendasData.features as SendasFeature[]).filter((feature) => {
     if (!feature || !feature.properties) return false
 
@@ -178,23 +178,23 @@ export default function Map({ onRouteSelect, selectedRoute }: MapProps) {
         difficultyValue === 3 ? 'Difícil' :
           'Media'
 
-    // Apply search filter (case-insensitive)
+
     if (filters.search && !name.toLowerCase().includes(filters.search.toLowerCase())) {
       return false
     }
 
-    // Apply difficulty filter
+
     if (filters.difficulties.length > 0 && !filters.difficulties.includes(difficulty.toLowerCase())) {
       return false
     }
 
-    // Apply distance filter (convert filter km to meters)
+
     const lengthKm = length / 1000
     if (lengthKm < filters.minDistance || lengthKm > filters.maxDistance) {
       return false
     }
 
-    return true // Include route if all filters pass
+    return true
   })
 
   return (
@@ -210,40 +210,40 @@ export default function Map({ onRouteSelect, selectedRoute }: MapProps) {
         url="https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png"
       />
 
-      {/* Add the MapEvents component to track zoom */}
+
       <MapEvents setZoomLevel={setCurrentZoom} />
 
-      {/* Restore GeoJSON layer for drawing route lines */}
+
       <GeoJSON
-        key={JSON.stringify(sendasData) + JSON.stringify(filters)} // Add filters to key to force re-render on filter change
-        data={{ ...sendasData, features: filteredFeatures } as any} // Use filtered features
+        key={JSON.stringify(sendasData) + JSON.stringify(filters)}
+        data={{ ...sendasData, features: filteredFeatures } as any}
         style={(feature) => {
-          // Use feature.properties.id for comparison, ensure it's treated as string
+
           const featureId = feature?.properties?.gml_id ? String(feature.properties.gml_id) : null
           const isSelected = selectedRoute && featureId && featureId === selectedRoute.id
           return {
             color: getDifficultyColor(feature?.properties?.senda_dificultad),
-            weight: isSelected ? 6 : 3, // Make selected thicker
-            opacity: isSelected ? 1 : 0.7, // Make selected fully opaque
+            weight: isSelected ? 6 : 3,
+            opacity: isSelected ? 1 : 0.7,
           }
         }}
       />
 
-      {/* Render Markers for Filtered Routes */}
+
       {filteredFeatures.map((feature: SendasFeature, index: number) => {
-        // Extract route details (similar to onEachRoute)
+
         const difficultyValue = feature.properties.senda_dificultad
         const mappedDifficulty: Route['difficulty'] =
           difficultyValue === 1 ? 'Fácil' :
             difficultyValue === 2 ? 'Media' :
               difficultyValue === 3 ? 'Difícil' :
-                'Media' // Default to 'Media' if undefined or not matching
+                'Media'
 
-        // Ensure ID is consistent and preferably from feature.properties.id
+
         const routeId = feature.properties.gml_id ? String(feature.properties.gml_id) : `generated-route-${index}`
 
         const route: Route = {
-          id: routeId, // Use consistent ID
+          id: routeId,
           name: feature.properties.equip_b_nombre || "Ruta sin nombre",
           difficulty: mappedDifficulty,
           length: feature.properties.senda_longitud || 0,
@@ -252,86 +252,72 @@ export default function Map({ onRouteSelect, selectedRoute }: MapProps) {
           geometry: feature.geometry,
         }
 
-        // Get the first coordinate for the marker position
-        let lat: number | null = null
-        let lng: number | null = null
 
-        if (feature.geometry?.coordinates && feature.geometry.coordinates.length > 0) {
-          let firstCoord: number[] | null = null
-          if (feature.geometry.type === 'LineString') {
-            firstCoord = feature.geometry.coordinates[0]
-          } else if (feature.geometry.type === 'MultiLineString' && feature.geometry.coordinates[0]?.length > 0) {
-            // Use the first coordinate of the first LineString for MultiLineString
-            firstCoord = feature.geometry.coordinates[0][0]
-          }
-
-          if (firstCoord && firstCoord.length >= 2) {
-            // GeoJSON coordinates are [lng, lat]
-            // Add stricter check for finite numbers
-            if (Number.isFinite(firstCoord[1]) && Number.isFinite(firstCoord[0])) {
-              lat = firstCoord[1]
-              lng = firstCoord[0]
-            }
-          }
+        if (!feature.geometry || !feature.geometry.coordinates || feature.geometry.coordinates.length === 0) {
+          console.warn("Feature without valid geometry:", feature)
+          return null
         }
 
-        if (lat === null || lng === null) {
-          console.warn("Could not determine start coordinates for route:", route.name, feature)
-          return null // Don't render marker if coords are invalid
+
+        let markerPosition: L.LatLngExpression
+        if (feature.geometry.type === "LineString") {
+
+          markerPosition = [feature.geometry.coordinates[0][1], feature.geometry.coordinates[0][0]] as L.LatLngExpression
+        } else if (feature.geometry.type === "MultiLineString") {
+
+          markerPosition = [feature.geometry.coordinates[0][0][1], feature.geometry.coordinates[0][0][0]] as L.LatLngExpression
+        } else {
+          console.warn("Unsupported geometry type for marker:", feature.geometry.type)
+          return null
         }
+
+
+        const isSelected = selectedRoute && route.id === selectedRoute.id
 
         return (
           <Marker
-            key={route.id} // Use the consistent routeId as key
-            position={[lat, lng]}
-            icon={defaultIcon} // Explicitly set the icon
-            eventHandlers={{ click: () => onRouteSelect(route) }} // Pass the route object with consistent ID
+            key={route.id}
+            position={markerPosition}
+            icon={defaultIcon}
+            eventHandlers={{
+              click: () => {
+                onRouteSelect(route)
+              },
+            }}
           >
             <Popup>
               <div>
-                <h3 className="font-bold">{route.name}</h3>
+                <h3>{route.name}</h3>
                 <p>Dificultad: {route.difficulty}</p>
-                <p>Tiempo: {formatDuration(route.duration)}</p>
-                <p>Distancia: {formatDistance(route.length)}</p>
+                <p>Longitud: {formatDistance(route.length)}</p>
+                <p>Duración: {route.duration}</p>
+
               </div>
             </Popup>
           </Marker>
         )
       })}
 
-      {/* Render labels for places using Markers with DivIcons, conditionally based on zoom */}
-      {(lugaresData.features as LugarFeature[]).map((feature: LugarFeature, index: number) => {
-        // Only render if zoom level is sufficient
-        if (currentZoom < LABEL_VISIBILITY_ZOOM_THRESHOLD) {
-          return null // Don't render marker if zoomed out too far
-        }
 
-        if (!feature?.geometry?.coordinates || feature.geometry.coordinates.length < 2 || feature.geometry.type !== 'Point') {
-          console.warn("Invalid geometry/coordinates for place feature:", feature)
-          return null
-        }
-        const lat = feature.geometry.coordinates[1]
-        const lng = feature.geometry.coordinates[0]
-        const name = feature.properties?.name || "Lugar sin nombre"
+      {currentZoom >= LABEL_VISIBILITY_ZOOM_THRESHOLD && (lugaresData.features as LugarFeature[]).map((lugar, index) => {
 
-        if (!Number.isFinite(lat) || !Number.isFinite(lng)) {
-          console.warn("Invalid finite coordinates for place feature:", feature)
+        if (!lugar.geometry || !lugar.geometry.coordinates || !lugar.properties || !lugar.properties.name) {
           return null
         }
 
-        // Create the custom DivIcon for this place
-        const placeIcon = createPlaceLabelIcon(name)
+
+        const position: L.LatLngExpression = [lugar.geometry.coordinates[1], lugar.geometry.coordinates[0]]
+
+
+        const labelIcon = createPlaceLabelIcon(lugar.properties.name)
 
         return (
           <Marker
-            key={feature.properties.id || `lugar-marker-${index}`}
-            position={[lat, lng]}
-            icon={placeIcon} // Use the custom DivIcon
-            // Remove interactivity if labels shouldn't be clickable
+            key={lugar.properties.id || `lugar-${index}`}
+            position={position}
+            icon={labelIcon}
             interactive={false}
-          >
-            {/* Remove the Tooltip entirely */}
-          </Marker>
+          />
         )
       })}
     </MapContainer>

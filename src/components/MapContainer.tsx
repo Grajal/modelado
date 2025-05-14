@@ -1,36 +1,9 @@
 import { useState } from "react"
 import { Button } from "./ui/button"
-// import { Loader2 } from "lucide-react"
-import Map from "@/components/Map" // Corrected import path for Map
-import type { Route } from "@/types/route" // Import shared Route type using 'type'
-import { MapProvider } from "@/context/MapContext" // Import MapProvider
-import { FilterPanel } from "@/components/FilterPanel" // Import FilterPanel
-
-// Define the Route type
-// interface Route {
-//   id: string
-//   name: string
-//   description: string
-//   type: "circular" | "linear"
-//   difficulty: "Fácil" | "Media" | "Difícil"
-//   length: number
-//   startPoint: string
-//   endPoint?: string
-//   duration: string
-// }
-
-// Dynamically import the Map component to avoid SSR issues with Leaflet
-// const Map = dynamic(() => import("./map"), {
-//   ssr: false,
-//   loading: () => (
-//     <div className="flex items-center justify-center h-full w-full bg-gray-100">
-//       <div className="text-center">
-//         <Loader2 className="h-8 w-8 animate-spin text-green-700 mx-auto" />
-//         <p className="mt-2 text-gray-600">Cargando mapa...</p>
-//       </div>
-//     </div>
-//   ),
-// })
+import Map from "@/components/Map"
+import type { Route } from "@/types/route"
+import { MapProvider } from "@/context/MapContext"
+import { FilterPanel } from "@/components/FilterPanel"
 
 export function MapContainer() {
   const [selectedRoute, setSelectedRoute] = useState<Route | null>(null)
@@ -40,14 +13,12 @@ export function MapContainer() {
   }
 
   return (
-    <MapProvider> {/* Wrap with MapProvider */}
-      <div className="flex h-full"> {/* Change height to h-full */}
-        {/* Filter Panel (Sidebar) */}
+    <MapProvider>
+      <div className="flex h-full">
         <div className="w-80 border-r p-4 overflow-y-auto bg-gray-50">
           <FilterPanel />
         </div>
 
-        {/* Map Area */}
         <div className="relative flex-1">
           <Map onRouteSelect={handleRouteSelect} selectedRoute={selectedRoute} />
           <div className="absolute bottom-4 left-4 z-10">
